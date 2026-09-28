@@ -43,6 +43,6 @@ source("code/source_functions.R")
 
     by_ants
 
-
-
+lm_soil <- lm(ant_richness ~ soil_hum_prop+forest_type, data=ant_richness)
+anova(lm_soil)
 
