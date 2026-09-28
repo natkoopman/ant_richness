@@ -49,4 +49,4 @@ po/*~
 rsconnect/
 
 # ignore ant richness csv
-ant_richness.csv
+data/ant_richness_2.csv
