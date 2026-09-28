@@ -47,3 +47,6 @@ source("code/source_functions.R")
 aiyp<-"ants in ya pants"
 
 
+lm_soil <- lm(ant_richness ~ soil_hum_prop+forest_type, data=ant_richness)
+anova(lm_soil)
+
